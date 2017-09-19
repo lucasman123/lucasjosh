@@ -1,9 +1,29 @@
+body {
+    margin: 0;
+}
+
 nav {
     float: left;
+    display: inline-block;
+    background-color: #ccc;
+    padding: 0;
+}
+
+nav h1 {
+    float: left;
     margin: 0;
+    text-decoration: none;
+}
+
+nav h1 a {
+    text-decoration: none;
 }
 
 nav ul {
     list-style-type: none;
+    display: inline;
+}
+
+nav ul li {
     display: inline;
 }
