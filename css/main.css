@@ -8,13 +8,20 @@ body {
 .container{
 	margin: 0 auto;
 	width: 960px;
-}
+	}
 .header{
 	background: #262626;
 	width: 100%;
 	top: 0;
 	position: fixed;
 	height: 40px;
+}
+.container1{
+	width: 65%; 
+	background-color: cyan;
+	margin: 0 auto;
+	height: 450px;
+	margin-top: 5%;
 
 }
 .logo{
@@ -37,5 +44,9 @@ li {
 }
 .nav {
 	float: right;
-
+}
+.ipbox{
+	background-color: #fff;
+	border: 2px solid black;
+	width:25%;
 }
